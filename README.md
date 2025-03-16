@@ -10,7 +10,7 @@ With just **one command**, you can spin up two S3 buckets, upload files, transfe
 
 ---
 
-## **⚡ Features**
+## **Features**
 ✅ **One-command execution** – Automates the full process  
 ✅ **Ensures AWS CLI is installed** – No manual setup required  
 ✅ **Uploads & transfers files** – No need to manage files manually  
@@ -18,17 +18,17 @@ With just **one command**, you can spin up two S3 buckets, upload files, transfe
 
 ---
 
-## **⚙️ Prerequisites**
+## **Prerequisites**
 - You must have an **AWS account** with permissions to manage S3.  
 - AWS CLI should be configured with valid **access keys** (the script will prompt if missing).  
 - **PowerShell** must be installed (available by default on Windows).  
 
 ---
 
-## **📖 Instructions**
+## **Instructions**
 1️⃣ **Navigate to your scripts directory** (optional but recommended):  
 ```powershell
-cd C:\Users\User\Documents\Powershell_Automation_Scripts
+cd C:\Users\User\Documents\Powershell_Automation_Scripts in my case.
 ```
 
 2️⃣ **Clone this repository**:  
@@ -48,7 +48,7 @@ cd s3-auto-file-transfer
 
 ---
 
-## **🛠 What This Script Does**
+## **What This Script Does**
 ✅ **Checks for AWS CLI** and installs it if missing  
 ✅ **Configures AWS credentials** (if not already set)  
 ✅ **Creates two uniquely named S3 buckets**  
@@ -58,7 +58,7 @@ cd s3-auto-file-transfer
 
 ---
 
-## **🎯 Use Cases & Customisation**
+## **Use Cases & Customisation**
 This script is designed for automating S3 bucket management and file transfers, but it can be easily modified to:
 
 Transfer files between existing S3 buckets by replacing the Create-S3Bucket function with user-provided bucket names.
@@ -67,7 +67,7 @@ Schedule automatic backups using Windows Task Scheduler or a cron job.
 Integrate with other AWS services (e.g., trigger an AWS Lambda function after file transfers).
 
 
-## **🛑 Cleanup (Optional)**
+## **Cleanup (Optional)**
 To remove all created S3 resources after running the script, select **"yes"** when prompted.  
 Alternatively, you can manually delete the buckets with:  
 ```powershell
