@@ -58,6 +58,15 @@ cd s3-auto-file-transfer
 
 ---
 
+## **🎯 Use Cases & Customisation**
+This script is designed for automating S3 bucket management and file transfers, but it can be easily modified to:
+
+Transfer files between existing S3 buckets by replacing the Create-S3Bucket function with user-provided bucket names.
+Sync files instead of copying, ensuring only new/updated files are transferred.
+Schedule automatic backups using Windows Task Scheduler or a cron job.
+Integrate with other AWS services (e.g., trigger an AWS Lambda function after file transfers).
+
+
 ## **🛑 Cleanup (Optional)**
 To remove all created S3 resources after running the script, select **"yes"** when prompted.  
 Alternatively, you can manually delete the buckets with:  
