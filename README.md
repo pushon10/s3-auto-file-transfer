@@ -1,8 +1,3 @@
-# s3-auto-file-transfer
-A PowerShell script that automates S3 bucket creation, file uploads, and transfers using AWS CLI.
-
----
-
 # **s3-auto-file-transfer**  
 This **PowerShell script** fully automates the process of **creating S3 buckets, uploading files, and transferring data** using the AWS CLI—saving you time and effort.
 
